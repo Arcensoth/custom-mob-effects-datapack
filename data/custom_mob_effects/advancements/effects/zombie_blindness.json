@@ -1,0 +1,18 @@
+{
+  "parent": "custom_mob_effects:effects",
+  "rewards": {
+    "function": "custom_mob_effects:effects/zombie_blindness"
+  },
+  "criteria": {
+    "take_damage": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:zombie"
+          }
+        }
+      }
+    }
+  }
+}
